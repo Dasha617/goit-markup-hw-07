@@ -822,6 +822,29 @@ a {
     position: absolute;
     right: 8px;
     top: 8px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    margin-top: 8px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+
+    background-color: var(--accent-text-color);
+    color: var(--black-logo-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-button {
@@ -831,7 +854,8 @@ a {
 /*формы*/
 
 .form {
-
+  width: 528px;
+  height: 581px;
   padding: 40px;
 
   box-sizing: border-box;
@@ -853,7 +877,8 @@ a {
     padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
-    border-radius: 4px
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field label {
@@ -876,6 +901,18 @@ a {
     outline: none;
 
 }
+
+.form-input:hover {
+    border: 1px solid var(--accent-color);
+    outline: none;
+    
+}
+
+.form-input:focus-within > .icon-form {
+    fill: var(--accent-color);
+}
+
+
 
 .form-coment label {
     width: 25px;
@@ -948,6 +985,21 @@ textarea {
     overflow: hidden;
 }
 
+.check-lable {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    margin-bottom: 30px;
+}
+
+.input-check:checked + .checkbox-icon {
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    background-image: url('../img/icon/symbol-defscheck.svg#icon-check');
+    background-size: contain;
+    background-origin: border-box;
+}
+
 .checkbox-icon {
     
     display: inline-block;
@@ -960,24 +1012,49 @@ textarea {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-check:checked +.checkbox-icon {
-    border-color: var(--accent-color);
-    background-color: var(--accent-color);
-    background-image: url(../img/icon/symbol-defscheck.svg#icon-check);
-    fill: white; 
-    background-size: contain;
-    background-origin: border-box;
-}
+
 
 .check-link {
     color: var(--accent-color);
+    
+}
+
+.check-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
 
 .btn-modal {
     position: absolute;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 56px;
-padding-right: 55px;
-border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 56px;
+    padding-right: 55px;
+    margin-top: 20px;
+    border-radius: 4px;
+    
+    transform: translateX(124px);
+  
+    color:#FFFFFF;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn-modal:focus,
+.btn-modal:hover {
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
