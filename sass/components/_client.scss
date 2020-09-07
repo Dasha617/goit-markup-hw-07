@@ -1,0 +1,37 @@
+.client-element {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px;
+}
+
+.client-title {
+    width: 170px;  
+    height: 90px;
+    box-sizing: border-box;
+   
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+} 
+
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid#AFB1B8; 
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+.client-link:hover  {
+    border-color: #2196F3;
+}
+.client-link:hover .client-logo {
+    fill: #2196F3;
+}
