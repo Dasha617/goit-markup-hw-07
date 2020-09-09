@@ -1,32 +1,32 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'Roboto';
-  src: url("../../fonts/Roboto-Medium.eot");
-  src: local("☺"), url("../../fonts/Roboto-Medium.woff") format("woff"), url("../../fonts/Roboto-Medium.ttf") format("truetype"), url("../../fonts/Roboto-Medium.svg") format("svg");
+  src: url("../fonts/Raleway-Light.eot");
+  src: local("☺"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../../fonts/Roboto-Bold.eot");
-  src: local("☺"), url("../../fonts/Roboto-Bold.woff") format("woff"), url("../../fonts/Roboto-Bold.ttf") format("truetype"), url("../../fonts/Roboto-Bold.svg") format("svg");
+  src: url("../fonts/Roboto-Bold.eot");
+  src: local("☺"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../../fonts/Roboto-Black.eot");
-  src: local("☺"), url("../../fonts/Roboto-Black.woff") format("woff"), url("../../fonts/Roboto-Black.ttf") format("truetype"), url("../../fonts/Roboto-Black.svg") format("svg");
+  src: url("../fonts/Roboto-Black.eot");
+  src: local("☺"), url("../fonts/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black.ttf") format("truetype"), url("../fonts/Roboto-Black.svg") format("svg");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("../../fonts/Raleway-Light.eot");
-  src: local("☺"), url("../../fonts/Raleway-Light.woff") format("woff"), url("../../fonts/Raleway-Light.ttf") format("truetype"), url("../../fonts/Raleway-Light.svg") format("svg");
+  src: url("../fonts/Raleway-Light.eot");
+  src: local("☺"), url("../fonts/Raleway-Light.woff") format("woff"), url("../fonts/Raleway-Light.ttf") format("truetype"), url("../fonts/Raleway-Light.svg") format("svg");
   font-weight: 700;
   font-style: normal;
 }
@@ -367,7 +367,7 @@ li {
   border: 1px;
   border-radius: 6px;
   padding: 11px 34px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -393,7 +393,7 @@ li {
   border: 1px;
   border-radius: 6px;
   padding: 6px 22px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -428,7 +428,7 @@ button:hover {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #2196F3;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -521,7 +521,7 @@ button:hover {
   padding: 11px 34px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -650,7 +650,7 @@ button:hover {
 
 .logo-footer {
   color: #FFFFFF;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -666,7 +666,7 @@ button:hover {
 }
 
 .address {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: #FFFFFF;
   width: 300px;
   height: 16px;
@@ -813,8 +813,9 @@ button:hover {
 
 .logo {
   color: #212121;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -822,6 +823,12 @@ button:hover {
 
 .span {
   color: #2196F3;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .main-nav {
@@ -961,7 +968,7 @@ a {
 
 .post {
   color: #212121;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -971,7 +978,7 @@ a {
 
 .post-title {
   color: #757575;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -994,7 +1001,7 @@ a {
 
 .site-nav a {
   color: #212121;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -1059,7 +1066,7 @@ a {
   margin-top: 0;
   margin-bottom: 50px;
   color: #212121;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -1162,7 +1169,7 @@ a {
 
 .subtitle {
   color: #212121;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 14px;
   line-height: 1.2;
@@ -1175,7 +1182,7 @@ a {
 
 .text {
   color: #757575;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
