@@ -302,6 +302,11 @@ summary {
   display: list-item;
 }
 
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto';
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -340,8 +345,8 @@ li {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../../img/Header.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../../img/Header.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../../imegs/Header.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../../imegs/Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1388,7 +1393,7 @@ textarea {
 .input-check:checked + .checkbox-icon {
   border-color: #2196F3;
   background-color: #2196F3;
-  background-image: url("../../img/icon/symbol-defscheck.svg#icon-check");
+  background-image: url("../../imegs/Vector.png");
   background-size: contain;
   background-origin: border-box;
 }
@@ -1410,7 +1415,7 @@ textarea {
   margin-right: 8px;
   width: 14px;
   height: 13px;
-  border: 4px solid #212121;
+  border: 3px solid #212121;
   border-radius: 4px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1425,9 +1430,11 @@ textarea {
 
 .check-link {
   color: #2196F3;
+  text-decoration: underline;
 }
 
 .check-text {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
