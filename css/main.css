@@ -127,7 +127,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace,
+ SFMono-Regular,
+ Consolas,
+ 'Liberation Mono',
+ Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -345,7 +350,7 @@ li {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../../imegs/Header.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../imegs/Header.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../../imegs/Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1158,19 +1163,19 @@ a {
 }
 
 .advan-list:nth-child(1)::before {
-  background-image: url(../../img/sputnik.png);
+  background-image: url(../imegs/sputnik.png);
 }
 
 .advan-list:nth-child(2)::before {
-  background-image: url(../../img/clock.png);
+  background-image: url(../imegs/clock.png);
 }
 
 .advan-list:nth-child(3)::before {
-  background-image: url(../../img/diagram.png);
+  background-image: url(../imegs/diagram.png);
 }
 
 .advan-list:nth-child(4)::before {
-  background-image: url(../../img/astronaut.png);
+  background-image: url(../imegs/astronaut.png);
 }
 
 .subtitle {
