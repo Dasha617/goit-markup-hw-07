@@ -9,13 +9,14 @@
 
 .logo-footer {
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-weight: bold;
+    font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
 
     &>span {
+    font-family: 'Raleway';
     color: $accent-color;
     }
 }
